@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 #go to linkedin log in page
 url1 = 'https://www.linkedin.com/login'
-service = Service(executable_path='path/to/chromdriver')
+service = Service(executable_path='./chromdriver')
 driver = webdriver.Chrome(service=service)
 driver.get(url1)
 time.sleep(2)
